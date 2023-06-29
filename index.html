@@ -7,7 +7,7 @@
     <title>Booki</title>
     <!-- LINKS TO CSS FILE ("STYLESHEET") AND SITE ICON -->
     <link rel="icon" href="images/logo/favicon.ico" type="image/png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
@@ -18,9 +18,15 @@
         <img class="logo desktop" src="./images/logo/Booki.png" alt="Booki logo">
         <img class="logo mobile" src="./images/logo/Booki@3x.png" alt="Booki logo"> 
       </a>
-      <nav class="flex-container navbar">
+      <!-- <nav class="flex-container navbar">
         <a class="navbar-item" href="#accommodations">Accommodations</a>
         <a class="navbar-item" href="#activities">Activities</a>
+      </nav> -->
+      <nav class="flex-container navbar">
+        <ul class="flex-container navbar-list">
+          <li class="navbar-item"><a href="#accommodations">Accommodations</a></li>
+          <li class="navbar-item"><a href="#activities">Activities</a></li>
+        </ul>     
       </nav>
     </header>
     <!-- Search Form -->
