@@ -6,7 +6,7 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  color: black;
+  color: #000;
   margin: 0 auto;
   max-width: 1300px;
 }
@@ -38,7 +38,7 @@ p {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 
 ul {
@@ -64,6 +64,10 @@ ul {
 
 .navbar {
   align-items: center;
+}
+
+.navbar-list {
+  margin: 0;
 }
 
 .navbar-item {
@@ -234,7 +238,7 @@ ul {
 
 .hotel-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  translate: 0 -3px;
+  transform: translateY(-3px);
 }
 
 .hotel-card a {
@@ -269,7 +273,7 @@ ul {
 
 .hotel-content h3, .hotel-content p {
   margin: 5% 0;
-  color: black;
+  color: #000;
 }
 
 .star-blue {
@@ -311,7 +315,6 @@ ul {
   border: 3px solid #fff;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
-  /* box-shadow: 1px 1px 6px 2px#e2e2e2; */
   flex: 0 1 30%;
   position: relative;
   transition: 0.3s;
@@ -319,7 +322,7 @@ ul {
 
 .popular-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  translate: 0 -3px;
+  transform: translateY(-3px);
 }
 
 .popular-card a {
@@ -364,7 +367,6 @@ ul {
 }
 
 .activities header {
-  /* padding-top: 3%; */
   padding: 3% 0 0 0;
 }
 
@@ -388,7 +390,7 @@ ul {
 
 .activities-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  translate: 0 -3px;
+  transform: translateY(-3px);
 }
 
 .activities-card a {
@@ -584,7 +586,7 @@ ul {
     flex-direction: column;
   } 
 
-  .navbar {
+  .navbar, .navbar-list {
     width: 100%;
   }
 
@@ -630,10 +632,6 @@ ul {
   .hotels {
     padding: 6%;
   }
-
-  /* .hotel-cards-wrap {
-    flex-flow: column nowrap;
-  } */
   
   .hotel-card {
     flex: 0 1 100%;
@@ -688,6 +686,4 @@ ul {
   .about, .our-accommodations, .assistance {
     flex: 0 1 100%;
   }
-
-
 }
