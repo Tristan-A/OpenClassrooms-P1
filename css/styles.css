@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700;800&display=swap');
 
+/* || GENERAL */
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -466,9 +468,11 @@ ul {
 }
 
 
-/* || MEDIA QUERIES: TABLETS */
+/* || MEDIA QUERIES: TABLET */
 
 @media (max-width: 991px) {
+
+/* || TABLET GENERAL */
 
   .accommodations {
     padding: 0;
@@ -556,9 +560,11 @@ ul {
   
 }
 
-/* || MEDIA QUERIES: MOBILES */
+/* || MEDIA QUERIES: MOBILE */
 
 @media (max-width: 767px) {
+
+/* || MOBILE GENERAL */
 
   .main-nav {
     padding: 0;
@@ -580,7 +586,7 @@ ul {
     font-size: 125%;
   }
 
-/* || MOBILES HEADER */
+/* || MOBILE HEADER */
 
   .main-nav {
     flex-direction: column;
@@ -603,19 +609,14 @@ ul {
     color: #0065fc;
   }
 
-/* || MOBILES SEARCH FORM */
+/* || MOBILE SEARCH FORM */
 
   button.mobile {
     border-radius: 12px;
     left: 231px;
   }
 
-/* || MOBILES FILTERS */
-
-  .filters h2 {
-    flex: 0 1 100%;
-    margin-bottom: 5px;
-  }
+/* || MOBILE FILTERS */
 
   .btn-order {
     order: 2;
@@ -625,9 +626,9 @@ ul {
     flex: 0 1 auto;
   }
 
-/* || MOBILES ACCOMMODATIONS */
+/* || MOBILE ACCOMMODATIONS */
 
-/* || MOBILES HOTELS */
+/* || MOBILE HOTELS */
   
   .hotels {
     padding: 6%;
@@ -653,7 +654,7 @@ ul {
     margin: 3% 0 0 0;
   }
 
-/* || MOBILES MOST POPULAR */
+/* || MOBILE MOST POPULAR */
 
   .popular {
     padding: 6%;
@@ -663,7 +664,7 @@ ul {
     padding: 0;
   }
 
-/* || MOBILES ACTIVITIES */
+/* || MOBILE ACTIVITIES */
 
   .activities-img-wrap {
     flex: 0 1 160px;
@@ -675,7 +676,7 @@ ul {
     margin: 0 0 6% 0;
   }
   
-/* || MOBILES FOOTER */
+/* || MOBILE FOOTER */
 
   .footer-nav {
     flex-flow: wrap;
